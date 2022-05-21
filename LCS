@@ -5,7 +5,7 @@
 Input: text1 = "abcde", text2 = "ace" 
 Output: 3 
 
-
+Time complexity :  O(n*m)
 
 class Solution {
 public:
