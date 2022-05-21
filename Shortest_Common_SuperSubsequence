@@ -1,3 +1,8 @@
+// SHORTEST  COMMON  SUPERSEQUENCE
+
+Input:   str1 = "geek",  str2 = "eke"
+Output: 5
+
 class Solution
 {
     public:
@@ -28,7 +33,6 @@ class Solution
     }
     int shortestCommonSupersequence(string X, string Y, int n, int m)
     {
-        //code here
         return (m+n)-LCS(X,Y,n,m);
     }
 };
